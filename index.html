@@ -9,7 +9,18 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
-    <script src="script.js"></script>
     <form id="searchform">
+      <div id="app">
+        <input id="searchbox" type="text" placeholder="Enter a city" />
+        <input id="search" type="submit" value="search" />
+        <div id="result"></div>
+      </div>
+    </form>
+    <h2></h2>
+    <h3></h3>
+    <div id="temprature"></div>
+    <div id="temperature-description"></div>
+
+    <script type="module" src="./script.js"></script>
   </body>
 </html>
